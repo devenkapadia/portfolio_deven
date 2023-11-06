@@ -8,7 +8,6 @@ import util from '../data/util.jpg';
 import imdb from '../data/imdb.jpg';
 import myImg from '../data/image.jpg'
 
-
 export const heroInfo = {
   name: 'Deven Kapadia',
   image: myImg,
