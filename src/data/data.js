@@ -1,201 +1,219 @@
 import { GitHub, LinkedIn } from '@material-ui/icons';
+import agr from '../data/agr.jpg';
+import gym from '../data/gym.jpg';
+import cldc from '../data/cldc.jpg';
+import notes from '../data/notes.jpg';
+import news from '../data/news.jpg';
+import util from '../data/util.jpg';
+import imdb from '../data/imdb.jpg';
+
 
 export const heroInfo = {
-  name: 'Sakil Khan',
-  image: '/images/myImage.jpeg',
+  name: 'Deven Kapadia',
+  image: '/images/image.jpg',
   title: [
-    'Full Stack Developer',
     'MERN Stack Developer',
     'Software Engineer',
-    'React Developer',
-    'Node.js Developer',
+    'Aspiring Data Scientist',
+    'AI/ML Enthusiast',
   ],
   contacts: [
     {
       id: 1,
       name: 'GitHub',
       icon: GitHub,
-      username: 'sakilk130',
-      link: 'https://github.com/sakilk130',
+      username: 'devenkapadia',
+      link: 'https://github.com/devenkapadia',
     },
     {
       id: 2,
       name: 'LinkedIn',
       icon: LinkedIn,
-      username: 'sakil-khan-076926145',
-      link: 'https://www.linkedin.com/in/sakil-khan-076926145/',
+      username: 'devenkapadia',
+      link: 'https://www.linkedin.com/in/devenkapadia/',
     },
   ],
 };
 
+export const aboutInfo = [
+  {
+    title:"About Me",
+    desc:"",
+  }
+]
+
 export const resumes = [
   {
     id: 1,
-    year: 'July 2023 - Present',
-    role: 'Software Specialist',
-    companyName: 'SSL Wireless',
-    companyUrl: 'https://www.sslwireless.com/',
-    description:
-      'SSL Wireless is recognized for its rapid development and efficient project execution by working with industry-standard technologies. SSL Wireless mounts on its decade long industry experience, superior technical skills and highest quality of support services to provide scalable IT solutions as a leading Software development and services company. It has deep infiltration in the Value-Added Services, Banking, Corporate, and FinTech industry of Bangladesh.',
+    year: 'Apr 2023 - July 2023',
+    role: 'Full Stack Developer',
+    companyName: 'Charusat Learning and Developer Club, Anand',
+    companyUrl: 'https://www.instagram.com/cldc_charusat/',
+    description: 'Improved tools to boost user interaction and deliver design versatility. Reviewed code, debugged problems, and corrected issues. Managed time efficiently in order to complete all tasks within deadlines.',
   },
   {
     id: 2,
-    year: 'March 2022 - June 2023',
-    role: 'Software Engineer',
-    companyName: 'Sheba Technologies Ltd.',
-    companyUrl: 'https://www.shebatech.com.bd/',
-    description:
-      'Sheba Technologies Limited (STL) is part of the Sheba Group conglomerate which has been in Tech business for almost quarter of a century. STL is fully committed to bring world class technologically advanced Business Process Automation by delivering architecturally superior Software solution, Off-the-Shelf customizable Software, Artificial Intelligence and Machine Learning to our esteemed clients who are also our long-term strategic partners.',
+    year: 'May 2023 - July 2023',
+    role: 'Data Science Intern',
+    companyName: 'BrainyBeam Technologies, Ahmedabad',
+    companyUrl: 'https://www.brainybeam.com/',
+    description: 'Created data visualization graphics, translating complex data sets into comprehensive visual representations. Translated cost and benefits of machine learning technology for non-technical audiences. Shadowed database personnel to learn new methods to achieve job duties.',
   },
   {
     id: 3,
-    year: 'January 2021 - February 2022',
-    role: 'Software Engineer',
-    companyName: 'PAP International Ltd.',
-    companyUrl: 'http://papint.asia/',
-    description:
-      'PAP International is a Technology development and Business solution provider that covers all areas of the Industries.The company is now fully setup and operating in Bangladesh as an extension of the parent company in UK.',
+    year: 'Aug 2021 - Aug 2022',
+    role: 'AIESEC intern',
+    companyName: 'AIESEC in VVN, Anand',
+    companyUrl: 'https://aiesec.org/',
+    description: 'Completed research, compiled data, updated spreadsheets, and produced timely reports. Interacted with students by phone, email, or in-person to provide information. Organized local events, led a team of 5 members. Attended March National Conference(MNC) at Bengaluru.',
+  },
+  {
+    id: 4,
+    year: 'May 2022 - July 2022',
+    role: 'Python Programming intern',
+    companyName: 'Sparks to Ideas, Ahmedabad',
+    companyUrl: 'https://www.sparkstoideas.com/',
+    description: 'Learned Python modules: tkinter, numpy, pandas. Created projects: wordle, bingo games, Paint, Notepad using GUI.',
   },
 ];
+
 
 export const educations = [
   {
     id: 1,
-    year: 'January 2017 - August 2021',
-    universityName: 'American International University-Bangladesh (AIUB)',
-    department: 'Bachelor of Science in Computer Science & Engineering',
-    description: '',
+    year: '2020 - Present',
+    universityName: 'Charotar University of Science and Technology',
+    department: 'Btech in Computer Engineering',
+    description: 'CGPA: 9.39',
   },
   {
     id: 2,
-    year: 'April 2014 - December 2016',
-    universityName: 'Shahmukhdum College, Rajshahi',
-    department: 'Higher Secondary School Certificate',
-    description: '',
+    year: '2018 - 2020',
+    universityName: 'Parth School of Science and Competetion',
+    department: 'High School',
+    description: 'PR: 97.24 (JEE)',
   },
   {
     id: 3,
-    year: 'January 2009 - December 2013',
-    universityName: 'Asian School & College, Nachole',
-    department: 'Secondary School Certificate',
-    description: '',
+    year: '2011 - 2018',
+    universityName: 'Jay Ambe Vidhyalaya',
+    department: 'Primary School',
+    description: 'Percentage: 95% (10th)',
   },
 ];
 
-export const projects = [
+const projectData = [
   {
-    id: 1,
-    image: '/images/todoAppReactWithFirebase.png',
-    name: 'Todo App',
-    description: `This is a simple Todo app. You can store your todo list. Also you can Add, Edit,\
-     Delete and View. As front end I used JavaScript library called 'React'. For designing I used\
-     'Material-UI'. And Realtime Database or Cloud Firestore I used 'Firebase'. That's why the app is \
-     so faster and robust.`,
-    tools: ['javascript', 'react', 'firebase'],
-    live: 'https://react-firebase-todo-app-d37d1.web.app/',
-    source: 'https://github.com/sakilk130/react-firebase-todo-app',
+    title: 'Agriculture Crop Prediction',
+    image: agr,
+    description: 'Built an ML model which predict the optimized crop according to weather and soil conditions. Used react material-UI framework and python Flask-API to connect it with web',
+    gitLink: 'https://github.com/devenkapadia/Crop_Prediction',
   },
   {
-    id: 2,
-    image: '/images/reactWeatherApp.png',
-    name: 'Weather App',
-    description: `This is a Weather app. Where you can search a city and see current weather temperature, \
-    wind speed etc. As front end I used JavaScript library called 'React'. I used 'OpenWeather' APIs For request \
-    data and  display data.`,
-    tools: ['javascript', 'react'],
-    live: 'https://react-weather-app-v1.netlify.app/',
-    source: 'https://github.com/sakilk130/react-weather-app',
+    title: 'CLDC- Official Website',
+    image: cldc,
+    description: 'Developed a modern and responsive design for the CLDC website. Collaborated with a team of designers and developers to implement the new design using ReactJS',
+    gitLink: 'https://github.com/devenkapadia/cldc-backup',
   },
   {
-    id: 3,
-    image: '/images/portfolioUsingReact.png',
-    name: 'My Portfolio Website',
-    description: `This is my Portfolio Website. Also this is a part of projects. Where people can see some information \
-    about me. There are 6 pages like Home, Resume, Portfolio, Contacts, Skills and Educations. For this project i \
-    used 'React' for front end and 'Material-UI'.`,
-    tools: ['javascript', 'react'],
-    live: 'https://sakilkhan.netlify.app/',
-    source: 'https://github.com/sakilk130/react-portfolio-website',
+    title: 'Fitness Tracker',
+    image: gym,
+    description: 'Created a web application using Python, OpenCV, Mediapipe, and the Streamlit framework to create a fitness tracker that counts reps and sets for various exercises',
+    gitLink: 'https://github.com/devenkapadia/Fitness_Tracker',
   },
+  {
+    title: 'Digital Notes',
+    image: notes,
+    description: 'Developed a web application using React, MongoDB, Node.js, and Express.js to create a digital notebook for storing and organizing notes',
+    gitLink: 'https://github.com/devenkapadia/Digital-Notes',
+  },
+  {
+    title: 'NewsTak',
+    image: news,
+    description: 'A website which fires an API request to fetch latest news, also filters the news according to different categories',
+    gitLink: 'https://github.com/devenkapadia/newstak',
+  },
+  {
+    title: 'Text-Utils',
+    image: util,
+    description: 'Website which helps to perform various text transformation according to user preference',
+    gitLink: 'https://github.com/devenkapadia/text-Utils',
+  },
+  {
+    title: 'IMDB Clone',
+    image: imdb,
+    description: 'Clone of popular movie database IMDB for learning styling, designing and working with API requests',
+    gitLink: 'https://github.com/devenkapadia/IMDB-clone',
+  },
+
 ];
+
+export const projects = projectData.map((project, index) => ({
+  id: index + 1,
+  image: project.image,
+  name: project.title,
+  description: project.description,
+  tools: ['React', 'Python', 'Flask', 'Node.js', 'MongoDB', 'OpenCV', 'Mediapipe'],
+  live: '',
+  source: project.gitLink,
+}));
+
 
 export const skills = [
   {
+    title: 'C++',
+    logo: 'https://logowik.com/content/uploads/images/911_c_logo.jpg',
+  },
+  {
     title: 'HTML',
     logo: 'https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg',
+  },
+  {
+    title: 'CSS',
+    logo: 'https://seeklogo.com/images/C/css3-logo-F1923C8D0E-seeklogo.com.png',
   },
   {
     title: 'JavaScript',
     logo: 'https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg',
   },
   {
-    title: 'MongoDB',
-    logo: 'https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg',
-  },
-
-  {
-    title: 'CSS',
-    logo: 'https://seeklogo.com/images/C/css3-logo-F1923C8D0E-seeklogo.com.png',
-  },
-  {
     title: 'TypeScript',
     logo: 'https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg',
   },
   {
-    title: 'Firebase',
-    logo: 'https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg',
+    title: 'Python',
+    logo: 'https://www.vectorlogo.zone/logos/python/python-icon.svg',
   },
   {
-    title: 'Bootstrap',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png',
+    title: 'OpenCV',
+    logo: 'https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg',
   },
   {
     title: 'ReactJS',
     logo: 'https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg',
   },
-  // msql
-  {
-    title: 'MySQL',
-    logo: 'https://seeklogo.com/images/M/mysql-logo-69B39F7D18-seeklogo.com.png',
-  },
-
-  {
-    title: 'Material-UI',
-    logo: 'https://camo.githubusercontent.com/cf05625198fe7b6ad8a302d1ce16bc99b93ec2ac/68747470733a2f2f6d6174657269616c2d75692e636f6d2f7374617469632f6c6f676f2e737667',
-  },
-
   {
     title: 'NodeJS',
     logo: 'https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg',
   },
   {
-    title: 'PHP',
-    logo: 'https://www.vectorlogo.zone/logos/php/php-icon.svg',
-  },
-  {
-    title: 'VS Code',
-    logo: 'https://cdn.worldvectorlogo.com/logos/visual-studio-code.svg',
-  },
-
-  {
     title: 'ExpressJS',
     logo: 'https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg',
   },
-
   {
-    title: 'Git',
-    logo: 'https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg',
+    title: 'MongoDB',
+    logo: 'https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg',
   },
   {
-    title: 'Linux',
-    logo: 'https://www.freepnglogos.com/uploads/linux-png/file-icons-flat-linux-svg-wikimedia-commons-6.png',
+    title: 'Material-UI',
+    logo: 'https://camo.githubusercontent.com/cf05625198fe7b6ad8a302d1ce16bc99b93ec2ac/68747470733a2f2f6d6174657269616c2d75692e636f6d2f7374617469632f6c6f676f2e737667',
   },
   {
-    title: 'npm',
-    logo: 'https://www.vectorlogo.zone/logos/npmjs/npmjs-icon.svg',
+    title: 'MySQL',
+    logo: 'https://seeklogo.com/images/M/mysql-logo-69B39F7D18-seeklogo.com.png',
   },
   {
-    title: 'GitHub',
-    logo: 'https://www.vectorlogo.zone/logos/github/github-icon.svg',
+    title: 'Machine Learning',
+    logo: 'https://www.vectorlogo.zone/logos/jupyter/jupyter-icon.svg',
   },
 ];

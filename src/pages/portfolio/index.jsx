@@ -60,15 +60,6 @@ const Portfolio = () => {
                 <Button
                   variant="contained"
                   size="small"
-                  color="primary"
-                  target="blank"
-                  href={project.live}
-                >
-                  Live Demo
-                </Button>
-                <Button
-                  variant="contained"
-                  size="small"
                   color="default"
                   target="blank"
                   href={project.source}

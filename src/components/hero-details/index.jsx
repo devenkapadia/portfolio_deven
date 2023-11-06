@@ -11,7 +11,7 @@ const HeroDetails = ({ contacts }) => {
         <BottomNavigationAction
           key={contract.id}
           icon={<contract.icon />}
-          target="blank"
+          target="_blank"
           href={contract.link}
           title={contract.username}
         />

@@ -18,8 +18,8 @@ const App = () => {
       <React.Suspense fallback={<Loading />}>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/resume" component={Resume} />
-          <Route path="/portfolio" component={Portfolio} />
+          <Route path="/experience" component={Resume} />
+          <Route path="/projects" component={Portfolio} />
           <Route path="/skills" component={Skills} />
           <Route path="/education" component={Education} />
           <Route path="/contacts" component={Contacts} />

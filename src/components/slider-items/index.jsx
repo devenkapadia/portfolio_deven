@@ -18,7 +18,7 @@ import {
   School,
 } from '@material-ui/icons';
 import { Link } from 'react-router-dom';
-
+import HeroDetails from '../hero-details';
 import { heroInfo } from '../../data/data';
 
 const menuItems = [
@@ -29,13 +29,13 @@ const menuItems = [
   },
   {
     listIcon: <AssignmentInd />,
-    listText: 'Resume',
-    listPath: '/resume',
+    listText: 'Experience',
+    listPath: '/experience',
   },
   {
     listIcon: <Apps />,
-    listText: 'Portfolio',
-    listPath: '/portfolio',
+    listText: 'Projects',
+    listPath: '/projects',
   },
   {
     listIcon: <Build />,
@@ -60,7 +60,7 @@ const SliderItems = ({ toggleSlide }) => {
     <Box component="div" className={classes.menuSlide} onClick={toggleSlide}>
       <Avatar
         className={classes.myImage}
-        src="/images/myImage.jpeg"
+        src="/images/image.jpg"
         alt={heroInfo.name}
       />
       <Divider />
@@ -81,6 +81,7 @@ const SliderItems = ({ toggleSlide }) => {
           </ListItem>
         ))}
       </List>
+      <HeroDetails contacts={heroInfo.contacts} />
     </Box>
   );
 };

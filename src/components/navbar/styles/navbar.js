@@ -8,8 +8,9 @@ export const useStyles = makeStyles((theme) => ({
     background: 'tomato',
   },
   title: {
-    color: 'white',
-    fontSize: '1.2rem',
+    color: 'tan',
+    fontWeight:"bold",
+    fontSize: '1.4rem',
     textDecoration: 'none',
   },
 }));

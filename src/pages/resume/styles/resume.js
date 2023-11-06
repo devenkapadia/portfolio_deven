@@ -100,6 +100,7 @@ export const useStyles = makeStyles((theme) => ({
   },
   subtitle1: {
     color: 'tan',
+    textAlign:'justify',
   },
   companyUrl: {
     textDecoration: 'none',

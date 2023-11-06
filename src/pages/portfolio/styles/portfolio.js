@@ -28,6 +28,11 @@ export const useStyles = makeStyles(() => ({
   },
   button: {
     backgroundColor: 'rgb(218 218 218)',
+    justifyContent: 'center'
+  },
+  source:
+  {
+    backgroundColor: 'grey',
   },
   chip: {
     margin: '0.5rem 0.5rem 0 0',

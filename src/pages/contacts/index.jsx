@@ -14,7 +14,7 @@ const isValidEmail = (email) => {
 
 const Contact = () => {
   const classes = useStyles();
-  const url = 'https://formspree.io/f/xgepkqol';
+  const url = 'https://formspree.io/f/xqkvjyqv';
 
   const [clientInfo, setClientInfo] = useState({
     os: '',
