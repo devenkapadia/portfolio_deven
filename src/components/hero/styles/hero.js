@@ -55,7 +55,7 @@ export const useStyles = makeStyles((theme) => ({
       left: '45%',
     },
     [theme.breakpoints.down('sm')]: {
-      visibility: 'hidden',
+      display: 'none',
     },
   },
   aboutTitle: {
