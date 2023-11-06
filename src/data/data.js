@@ -6,11 +6,12 @@ import notes from '../data/notes.jpg';
 import news from '../data/news.jpg';
 import util from '../data/util.jpg';
 import imdb from '../data/imdb.jpg';
+import myImg from '../data/image.jpg'
 
 
 export const heroInfo = {
   name: 'Deven Kapadia',
-  image: '/images/image.jpg',
+  image: myImg,
   title: [
     'MERN Stack Developer',
     'Software Engineer',
