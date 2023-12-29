@@ -37,8 +37,8 @@ export const heroInfo = {
 
 export const aboutInfo = [
   {
-    title:"About Me",
-    desc:"",
+    title: "About Me",
+    desc: "",
   }
 ]
 
@@ -106,42 +106,49 @@ const projectData = [
   {
     title: 'Agriculture Crop Prediction',
     image: agr,
+    tools: ['Machine Learning', 'Flask', 'React', 'Material-UI', 'Node-js'],
     description: 'Built an ML model which predict the optimized crop according to weather and soil conditions. Used react material-UI framework and python Flask-API to connect it with web',
     gitLink: 'https://github.com/devenkapadia/Crop_Prediction',
   },
   {
     title: 'CLDC- Official Website',
     image: cldc,
+    tools: ['React', 'Node.js', 'MongoDB', 'Express', 'CSS', 'Material-UI'],
     description: 'Developed a modern and responsive design for the CLDC website. Collaborated with a team of designers and developers to implement the new design using ReactJS',
     gitLink: 'https://github.com/devenkapadia/cldc-backup',
   },
   {
     title: 'Fitness Tracker',
     image: gym,
+    tools: ['Python', 'OpenCV', 'Mediapipe', 'StreamLit'],
     description: 'Created a web application using Python, OpenCV, Mediapipe, and the Streamlit framework to create a fitness tracker that counts reps and sets for various exercises',
     gitLink: 'https://github.com/devenkapadia/Fitness_Tracker',
   },
   {
     title: 'Digital Notes',
     image: notes,
+    tools: ['React', 'Node.js', 'MongoDB', 'Express', 'CSS', 'HTML'],
     description: 'Developed a web application using React, MongoDB, Node.js, and Express.js to create a digital notebook for storing and organizing notes',
     gitLink: 'https://github.com/devenkapadia/Digital-Notes',
   },
   {
     title: 'NewsTak',
     image: news,
+    tools: ['React', 'Node.js', 'API', 'Express', 'CSS', 'HTML'],
     description: 'A website which fires an API request to fetch latest news, also filters the news according to different categories',
     gitLink: 'https://github.com/devenkapadia/newstak',
   },
   {
     title: 'Text-Utils',
     image: util,
+    tools: ['React', 'Node.js', 'Express', 'CSS', 'HTML'],
     description: 'Website which helps to perform various text transformation according to user preference',
     gitLink: 'https://github.com/devenkapadia/text-Utils',
   },
   {
     title: 'IMDB Clone',
     image: imdb,
+    tools: ['React', 'Node.js', 'API', 'Express', 'CSS', 'HTML'],
     description: 'Clone of popular movie database IMDB for learning styling, designing and working with API requests',
     gitLink: 'https://github.com/devenkapadia/IMDB-clone',
   },
@@ -153,7 +160,7 @@ export const projects = projectData.map((project, index) => ({
   image: project.image,
   name: project.title,
   description: project.description,
-  tools: ['React', 'Python', 'Flask', 'Node.js', 'MongoDB', 'OpenCV', 'Mediapipe'],
+  tools: project.tools,
   live: '',
   source: project.gitLink,
 }));
