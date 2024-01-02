@@ -3,7 +3,8 @@ import { Avatar, Box, Grid, Typography, Button } from '@material-ui/core';
 import Typed from 'react-typed';
 import { useStyles } from './styles/hero';
 import { heroInfo } from '../../data/data';
-import profile from '../../data/profile.jpg'
+// import profile from '../../data/profile.jpg'
+import profile from '../../data/pic.jpg'
 
 const Hero = () => {
   const classes = useStyles();
