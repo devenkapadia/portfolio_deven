@@ -45,6 +45,14 @@ export const aboutInfo = [
 export const resumes = [
   {
     id: 1,
+    year: 'Dec 2023 - Present',
+    role: 'MERN Stack Developer',
+    companyName: 'Alois Solutions, Vadodara',
+    companyUrl: 'www.aloisolutioins.com',
+    description: 'Meticulously debugging, resolving issues, seamlessly integrating new modules into existing projects, and adeptly working with APIs to enhance functionality and performance.',
+  },
+  {
+    id: 2,
     year: 'Apr 2023 - July 2023',
     role: 'Full Stack Developer',
     companyName: 'Charusat Learning and Developer Club, Anand',
@@ -52,7 +60,7 @@ export const resumes = [
     description: 'Improved tools to boost user interaction and deliver design versatility. Reviewed code, debugged problems, and corrected issues. Managed time efficiently in order to complete all tasks within deadlines.',
   },
   {
-    id: 2,
+    id: 3,
     year: 'May 2023 - July 2023',
     role: 'Data Science Intern',
     companyName: 'BrainyBeam Technologies, Ahmedabad',
@@ -60,7 +68,7 @@ export const resumes = [
     description: 'Created data visualization graphics, translating complex data sets into comprehensive visual representations. Translated cost and benefits of machine learning technology for non-technical audiences. Shadowed database personnel to learn new methods to achieve job duties.',
   },
   {
-    id: 3,
+    id: 4,
     year: 'Aug 2021 - Aug 2022',
     role: 'AIESEC intern',
     companyName: 'AIESEC in VVN, Anand',
@@ -68,7 +76,7 @@ export const resumes = [
     description: 'Completed research, compiled data, updated spreadsheets, and produced timely reports. Interacted with students by phone, email, or in-person to provide information. Organized local events, led a team of 5 members. Attended March National Conference(MNC) at Bengaluru.',
   },
   {
-    id: 4,
+    id: 5,
     year: 'May 2022 - July 2022',
     role: 'Python Programming intern',
     companyName: 'Sparks to Ideas, Ahmedabad',
@@ -198,6 +206,10 @@ export const skills = [
   {
     title: 'ReactJS',
     logo: 'https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg',
+  },
+  {
+    title: 'VueJs',
+    logo: 'https://www.vectorlogo.zone/logos/vuejs/vuejs-icon.svg',
   },
   {
     title: 'NodeJS',
